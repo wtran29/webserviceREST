@@ -12,7 +12,11 @@ On Visual Studios, open the project then right click and set as Startup Project.
 On Fiddler, Set the host, content-type: application/json.
 
 Test on Fiddler:
+
 GET http://localhost:65067/TutorialService.svc/Tutorial - Shows list of strings
+
 GET http://localhost:65067/TutorialService.svc/Tutorial/{pid} - Shows the particular string assigned to that pid
+
 POST http://localhost:65067/TutorialService.svc/Tutorial, Request Body: {'str': '[your string here]'} - Adds your string into the list
+
 DELETE http://localhost:65067/TutorialService.svc/Tutorial/{pid} - Delete the string assigned to that pid from the list
